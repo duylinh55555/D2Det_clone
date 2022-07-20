@@ -25,3 +25,7 @@ zip_paths.append("stuff_annotations_trainval2017.zip")
 for path in zip_paths:
     with zipfile.ZipFile(path, 'r') as zip_file:
         zip_file.extractall(extract_folder_path)
+
+# for git
+# git config --global user.email "linh9920duy@gmail.com"
+# git config --global user.name "duylinh55555"

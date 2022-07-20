@@ -24,8 +24,11 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
-[Ii]mg_data/
+img_data/
 mmdetection/
+
+# compressed file
+*.zip
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -118,6 +121,3 @@ work_dirs/
 
 # Pytorch
 *.pth
-
-# zip file
-*.zip
